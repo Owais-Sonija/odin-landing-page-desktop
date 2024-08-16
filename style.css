@@ -62,3 +62,47 @@ nav .nav_right a {
     border-radius: 4px;
     cursor: pointer;
 }
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding: 3rem 10rem;
+}
+
+.menu h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.menu .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+
+.menu .cards .card {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+transition: transform 300ms ease-in-out ;
+}
+.menu .cards .card:hover {
+    transform: scale(1.04);
+}
+.menu .cards .card_image img {
+    border: 8px solid #3882f6;
+    border-radius: 10px;
+}
+
+.menu .card h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
