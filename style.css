@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto",serif;
+    font-family: "Roboto", serif;
 }
 
 .hero_section {
-    background-color: #1F2937;
+    background-color: #1f2937;
     padding: 1rem 10rem;
 }
 
@@ -18,10 +19,9 @@ nav {
 }
 
 nav .nav_left h1 {
-    font-size: 24px ;
+    font-size: 24px;
     color: #f9faf8;
 }
-
 
 nav .nav_right a {
     font-size: 18px;
@@ -51,6 +51,7 @@ nav .nav_right a {
     margin: 1.5rem 0;
     font-weight: 300;
 }
+
 .hero_body button {
     background-color: #3882f6;
     font-size: 18px;
@@ -75,7 +76,7 @@ nav .nav_right a {
 .menu h2 {
     font-size: 36px;
     font-weight: 800;
-    color: #1F2937;
+    color: #1f2937;
 }
 
 .menu .cards {
@@ -85,18 +86,19 @@ nav .nav_right a {
     gap: 4rem;
 }
 
-
 .menu .cards .card {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 1rem;
-transition: transform 300ms ease-in-out ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    transition: transform 300ms ease-in-out;
 }
+
 .menu .cards .card:hover {
     transform: scale(1.04);
 }
+
 .menu .cards .card_image img {
     border: 8px solid #3882f6;
     border-radius: 10px;
@@ -105,4 +107,23 @@ transition: transform 300ms ease-in-out ;
 .menu .card h4 {
     font-size: 18px;
     font-weight: 600;
+}
+
+.quote_area {
+    background-color: #e5e7eb;
+    padding: 8rem 16rem;
+}
+
+.quote_area h4 {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote_area h5 {
+    text-align: end;
+    font-size: 22px;
+    color: #1f2937;
+    font-weight: 700;
 }
